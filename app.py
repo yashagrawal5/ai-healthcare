@@ -69,6 +69,9 @@ def api1(full_path):
     predicted = model222.predict(data)
     return predicted
 
+# config
+
+app.config .from_object(os.environ['APP_SETTINGS'])
 
 # home page
 
